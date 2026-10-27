@@ -1,0 +1,22 @@
+STEVE — A MINA DOS R$ 1.000 (PACOTE V3)
+
+Este pacote contém o miniapp web instalável (PWA), com ícones próprios para a tela inicial do Android.
+
+COMO INSTALAR NO CELULAR
+1. Publique os arquivos do pacote em um endereço HTTPS. Uma opção gratuita é o GitHub Pages.
+2. No Android, abra o endereço publicado usando o Google Chrome.
+3. Toque no menu ⋮ e escolha “Instalar app” ou “Adicionar à tela inicial”.
+4. O ícone do Steve aparecerá na tela inicial. Abra por ele para jogar.
+
+IMPORTANTE
+- Um arquivo HTML aberto localmente ou o ZIP sozinho não instala o PWA. A instalação completa exige endereço HTTPS.
+- O app salva o progresso no armazenamento local do navegador/aplicativo neste aparelho.
+- Use “Exportar salvamento” dentro do jogo para fazer backup regularmente.
+- O app funciona como PWA, não como APK nativo.
+- Não compartilhe publicamente o link se quiser manter seu jogo privado.
+
+ARQUIVOS
+- index.html: jogo
+- manifest.json: configuração instalável e nome do app
+- sw.js: cache/offline
+- icons/: ícones da tela inicial
